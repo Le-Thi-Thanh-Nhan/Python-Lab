@@ -13,5 +13,6 @@ n = int(input("Nhập một số nguyên dương: "))
 # Kiểm tra và in kết quả
 if is_prime(n):
     print(f"{n} là số nguyên tố.")
-else:
+else: 
     print(f"{n} là hợp số.")
+
