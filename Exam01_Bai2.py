@@ -17,5 +17,3 @@ print("Tổng các phần tử chẵn = %d"%tong)
 max_a = max(a)
 print('Phần tử lớn nhất của dãy là: ', max_a)
 
-
-
