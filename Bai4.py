@@ -27,10 +27,7 @@ def main():
         dsHH.append(hh)
         print()
     
-    for i in range(len(dsHH) - 1):
-        for j in range(i+1, len(dsHH)):
-            if dsHH[i].donGia < dsHH[j].donGia:
-                dsHH[i], dsHH[j] = dsHH[j], dsHH[i]
+    dsHH.sort(key = str, reverse = True)
     
     print('Danh sách hàng hóa sau khi sắp xếp theo giá giảm dần: ')
     for i in range(len(dsHH)):
