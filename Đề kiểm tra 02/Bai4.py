@@ -1,4 +1,4 @@
-# Nhập danh sách số nguyên từ bàn phím
+# Tổng lớn nhất của dãy con liên tục
 arr = list(map(int, input("Nhập danh sách các số nguyên, cách nhau bằng dấu cách: ").split()))
 
 # Áp dụng thuật toán Kadane

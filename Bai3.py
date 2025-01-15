@@ -1,3 +1,4 @@
+#Tính tổng các số chẵn trong dãy số
 import math
 n = int(input('Nhập số lượng phần tử của dãy số: '))
 s = []
@@ -14,3 +15,6 @@ max_num = max(s)
 
 print(f'Tổng các số chẵn trong dãy là: {tong_chan}')
 print(f'Phần tử lớn nhất trong dãy là: {max_num}')
+
+
+

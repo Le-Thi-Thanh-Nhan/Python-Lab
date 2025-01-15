@@ -1,3 +1,4 @@
+#Sắp xếp tăng dần, giảm dần, tìm kiếm một số trong dãy số
 s = list(map(int, input('Nhập dãy số cách nhau bởi dấu cách: ').split()))
 
  #sap xep tang dan
